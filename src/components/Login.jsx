@@ -81,7 +81,7 @@ function Login(props) {
     <div>
       <div className="products-page-nav" />
       <div className="conteinerLogin">
-        <img src={logo} width="150px" style={{ marginBottom: '30px' }} alt="" />
+        <img src={logo} width="100px" style={{ marginBottom: '30px' }} alt="" />
         {renderEmailInput(email, setEmail)}
         {renderPasswordInput(password, setPassword)}
         {renderButtonInput(data, email, password, history)}
