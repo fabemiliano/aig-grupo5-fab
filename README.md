@@ -13,8 +13,8 @@ Para visualizar o projeto: lcdlima.github.io/aig-grupo5
 # Features do App:
 
 - Tela de Login:
--- Verifica se o usuário está cadastrado e se a senha é a mesma do cadastro
--- Permite que seja feito o cadastro de um novo usuário
+  - Verifica se o usuário está cadastrado e se a senha é a mesma do cadastro
+  - Permite que seja feito o cadastro de um novo usuário
 
 - Cadastro:
 -- São três telas separadas para cadastro de dados de acesso, endereço e dados do cartão de crédito.
