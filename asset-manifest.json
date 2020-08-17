@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/aig-grupo5-fab/static/css/main.35a1d72c.chunk.css",
-    "main.js": "/aig-grupo5-fab/static/js/main.e353012d.chunk.js",
-    "main.js.map": "/aig-grupo5-fab/static/js/main.e353012d.chunk.js.map",
+    "main.js": "/aig-grupo5-fab/static/js/main.112c1f30.chunk.js",
+    "main.js.map": "/aig-grupo5-fab/static/js/main.112c1f30.chunk.js.map",
     "runtime-main.js": "/aig-grupo5-fab/static/js/runtime-main.7aeb468b.js",
     "runtime-main.js.map": "/aig-grupo5-fab/static/js/runtime-main.7aeb468b.js.map",
     "static/js/2.26277251.chunk.js": "/aig-grupo5-fab/static/js/2.26277251.chunk.js",
     "static/js/2.26277251.chunk.js.map": "/aig-grupo5-fab/static/js/2.26277251.chunk.js.map",
     "index.html": "/aig-grupo5-fab/index.html",
-    "precache-manifest.4079356b47a778a1ba863f042aa53060.js": "/aig-grupo5-fab/precache-manifest.4079356b47a778a1ba863f042aa53060.js",
+    "precache-manifest.7cfce68d66deae8bc026570eb10f2361.js": "/aig-grupo5-fab/precache-manifest.7cfce68d66deae8bc026570eb10f2361.js",
     "service-worker.js": "/aig-grupo5-fab/service-worker.js",
     "static/css/main.35a1d72c.chunk.css.map": "/aig-grupo5-fab/static/css/main.35a1d72c.chunk.css.map",
     "static/js/2.26277251.chunk.js.LICENSE.txt": "/aig-grupo5-fab/static/js/2.26277251.chunk.js.LICENSE.txt",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.7aeb468b.js",
     "static/js/2.26277251.chunk.js",
     "static/css/main.35a1d72c.chunk.css",
-    "static/js/main.e353012d.chunk.js"
+    "static/js/main.112c1f30.chunk.js"
   ]
 }
