@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c5047478f4edc43d5c9dec4517e79eb2",
+    "revision": "afb55fe7a9908a8826ee38444de4cb21",
     "url": "/aig-grupo5-fab/index.html"
   },
   {
-    "revision": "595e39f1a5ed1c985210",
-    "url": "/aig-grupo5-fab/static/css/main.35a1d72c.chunk.css"
+    "revision": "5de02f33f1faa0a0c8ad",
+    "url": "/aig-grupo5-fab/static/css/main.48ad3f9b.chunk.css"
   },
   {
     "revision": "e6172c570ca53cdf8d97",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aig-grupo5-fab/static/js/2.26277251.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "595e39f1a5ed1c985210",
-    "url": "/aig-grupo5-fab/static/js/main.112c1f30.chunk.js"
+    "revision": "5de02f33f1faa0a0c8ad",
+    "url": "/aig-grupo5-fab/static/js/main.b92ea958.chunk.js"
   },
   {
     "revision": "d07ed99e4b502690fb88",
