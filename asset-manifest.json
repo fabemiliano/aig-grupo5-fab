@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/aig-grupo5-fab/static/css/main.35a1d72c.chunk.css",
+    "main.js": "/aig-grupo5-fab/static/js/main.e353012d.chunk.js",
+    "main.js.map": "/aig-grupo5-fab/static/js/main.e353012d.chunk.js.map",
+    "runtime-main.js": "/aig-grupo5-fab/static/js/runtime-main.7aeb468b.js",
+    "runtime-main.js.map": "/aig-grupo5-fab/static/js/runtime-main.7aeb468b.js.map",
+    "static/js/2.26277251.chunk.js": "/aig-grupo5-fab/static/js/2.26277251.chunk.js",
+    "static/js/2.26277251.chunk.js.map": "/aig-grupo5-fab/static/js/2.26277251.chunk.js.map",
+    "index.html": "/aig-grupo5-fab/index.html",
+    "precache-manifest.4079356b47a778a1ba863f042aa53060.js": "/aig-grupo5-fab/precache-manifest.4079356b47a778a1ba863f042aa53060.js",
+    "service-worker.js": "/aig-grupo5-fab/service-worker.js",
+    "static/css/main.35a1d72c.chunk.css.map": "/aig-grupo5-fab/static/css/main.35a1d72c.chunk.css.map",
+    "static/js/2.26277251.chunk.js.LICENSE.txt": "/aig-grupo5-fab/static/js/2.26277251.chunk.js.LICENSE.txt",
+    "static/media/Login.css": "/aig-grupo5-fab/static/media/Roboto-LightItalic.c57ede1d.ttf",
+    "static/media/biglogo.png": "/aig-grupo5-fab/static/media/biglogo.7e4af5d0.png",
+    "static/media/bottles.svg": "/aig-grupo5-fab/static/media/bottles.51615cc1.svg",
+    "static/media/cart.svg": "/aig-grupo5-fab/static/media/cart.a240077c.svg",
+    "static/media/logo.svg": "/aig-grupo5-fab/static/media/logo.3d733ec5.svg",
+    "static/media/rubish.svg": "/aig-grupo5-fab/static/media/rubish.b550c33e.svg",
+    "static/media/ThirdPart.css": "/aig-grupo5-fab/static/media/tela1R.a75c4d09.png",
+    "static/media/SecondPart.css": "/aig-grupo5-fab/static/media/tela2R.204ec350.png",
+    "static/media/user.svg": "/aig-grupo5-fab/static/media/user.228cd08f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7aeb468b.js",
+    "static/js/2.26277251.chunk.js",
+    "static/css/main.35a1d72c.chunk.css",
+    "static/js/main.e353012d.chunk.js"
+  ]
+}
