@@ -1,0 +1,35 @@
+.others-product {
+  display: flex;
+  border: 1px solid black;
+  justify-content: space-around;
+  width: 90%;
+  margin: 0 50px 30px 50px;
+  min-height: 120px;
+}
+
+.others-product > div:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.others-product > div:first-child p {
+  width: 80px;
+  text-align: center;
+}
+
+
+.icon-text-cart-div {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin: 70px 0;
+}
+
+.icon-text-cart-div h3 {
+  margin: 0 0 0 10px;
+}
+
+.footer a h3 {
+  margin: 0;
+}

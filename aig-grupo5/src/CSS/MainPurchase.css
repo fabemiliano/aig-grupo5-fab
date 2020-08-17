@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonte/Roboto-LightItalic.ttf);
+}
+
+.conteinerMainPurchase {
+  align-items: center;
+  background-color: #FAFAFA;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto";
+  justify-content: center;
+  width: 100%;
+}
+
+.ButtonMainPurchase {
+  background-color: #F9C22F;
+  border: none;
+  border-radius: 30px;
+  font-size: 23px;
+  height: 50px;
+  width: 100%;
+}
+
+.conteinerButtonMP {
+  margin-top: 40px;
+  width: 35vh;
+}

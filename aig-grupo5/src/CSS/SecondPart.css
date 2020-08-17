@@ -1,0 +1,240 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonte/Roboto-LightItalic.ttf);
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.conteinerCadastro2 {
+  align-items: center;
+  background-color: #FAFAFA;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto";
+  justify-content: center;
+  width: 100%;
+}
+
+.conteinerCadastro2 input {
+  border: #999999 solid 2px;
+  border-radius: 5px;
+  height: 25px;
+  width: 40vh;
+  text-align: center;
+  font-size: 15px;
+  color: #999999;
+}
+
+.conteinerNameSP {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+.conteinerCPFSP {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  margin-top: 8px;
+  margin-right: 10px;
+}
+
+.conteinerCPFSP input {
+  width: 20vh;
+}
+
+.conteinerBirthDaySP {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  margin-top: 6px;
+  margin-left: 10px;
+}
+
+.conteinerBirthDaySP input {
+  height: 28px;
+  width: 20vh;
+}
+
+.conteinerDDDSP {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+  margin-right: 10px;
+}
+
+.conteinerDDDSP input {
+  width: 7vh;
+}
+
+.conteinerPhoneSP {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  margin-top: 8px;
+  margin-left: 10px;
+}
+
+.conteinerPhoneSP input {
+  width: 26vh;
+}
+
+.conteinerCEPSP {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  margin-top: 8px;
+  margin-right: 10px;
+}
+
+.conteinerCEPSP input {
+  width: 20vh;
+}
+
+.conteinerStreetSP {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  margin-top: 8px;
+  margin-left: 10px;
+}
+
+.conteinerStreetSP input {
+  width: 26vh;
+}
+
+.conteinerAdressNumberSP {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  margin-top: 8px;
+  margin-right: 10px;
+}
+
+.conteinerAdressNumberSP input {
+  width: 7vh;
+}
+
+.conteinerComplementSP {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  margin-top: 8px;
+  margin-left: 10px;
+}
+
+.conteinerComplementSP input {
+  width: 26vh;
+}
+
+.conteinerCitySP {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  margin-top: 8px;
+  margin-right: 10px;
+}
+
+.conteinerCitySP input {
+  width: 22vh;
+}
+
+.conteinerStateSP {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  margin-top: 8px;
+  margin-left: 10px;
+}
+
+.conteinerStateSP input {
+  width: 22vh;
+}
+
+.BirthDayAndCPF {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+.conteinerCompletCellphoneSP {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+.StreetAndCEP {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+.adressAndComplement {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+.cityAndState {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+.buttonSP {
+  background-color: #F9C22F;
+  border: none;
+  border-radius: 30px;
+  font-size: 23px;
+  height: 50px;
+  width: 100%;
+}
+
+.conteinerButtonSP {
+  margin-top: 40px;
+  width: 35vh;
+}
+
+.headerSP {
+  background-color: #333333;
+  height: 60px;
+  width: 100%;
+  margin-bottom: 1px;
+}
+
+.footerSP{
+  height: 90px;
+  margin: 0;
+  position:absolute;
+  bottom:0;
+  width: 100%;
+  background-image: url('../img/tela2R.png');
+  background-size:110% 100%;
+  background-position: bottom;
+}

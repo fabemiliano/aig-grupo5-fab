@@ -1,0 +1,110 @@
+.footerFP{
+  height: 50px;
+  margin-top: 200;
+  position: absolute;
+  bottom:0;
+  width: 100%;
+  background-image: url('../images/tela1R.png');
+  background-size:110% 100%;
+  background-position: bottom;
+  justify-content: space-between;
+  z-index: -1;
+}
+
+.initial-register-div input {
+  border: 2px solid black;
+  border-radius: 30px;
+  height: 35px;
+  margin: 5px 0;
+  text-align: center;
+  font-size: 20px;
+}
+
+.initial-register-div {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 5px auto;
+}
+
+.initial-register-div button {
+  align-self: center;
+  background-color: #333333;
+  border: 2px solid black;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 900;
+  height: 50px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  width: 50%;
+}
+
+.initial-register-div button:hover {
+  background: #333333;
+  color: white;
+}
+
+.initial-conteiner {
+  margin-top: 100px;
+}
+
+.initial-make-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.initial-make-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.initial-register-ddd-div {
+  display: flex;
+  flex-direction: column;
+  width: 19%;
+  margin: 5px auto;
+}
+
+.initial-register-ddd-div input {
+  border: 2px solid black;
+  border-radius: 30px;
+  height: 35px;
+  margin: 5px 0;
+}
+
+.initial-register-phone-div {
+  display: flex;
+  flex-direction: column;
+  width: 59%;
+  margin: 5px auto;
+}
+
+.initial-register-phone-div input {
+  border: 2px solid black;
+  border-radius: 30px;
+  height: 35px;
+  margin: 5px 0;
+}
+
+.initial-register-cpf-birthday-div {
+  display: flex;
+  flex-direction: column;
+  width: 39%;
+  margin: 5px auto;
+}
+
+.initial-register-cpf-birthday-div input {
+  border: 2px solid black;
+  border-radius: 30px;
+  height: 35px;
+  margin: 5px 0;
+}
+
+.time-div {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}

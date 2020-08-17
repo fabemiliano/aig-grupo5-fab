@@ -1,0 +1,67 @@
+.participants-div {
+  color: #333333;
+}
+
+.buttons-div button {
+  margin: auto;
+  width: 50%;
+  border-radius: 30px;
+  height: 50px;
+  background-color: #616161;
+  color: white;
+  font-weight: 900;
+}
+
+.event-page-div button:hover {
+  background: #333333;
+  color: white;
+}
+
+.event-page-div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.buttons-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+  width: 300px;
+}
+
+.buttons-div a{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+
+}
+
+.info-div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 350px;
+}
+
+.share-div{
+  text-align: center;
+  margin: 10px 0 20px 0;
+}
+
+.icon-text-div {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.info-div h3 {
+  margin: 0;
+}
+
+.icon-text-div h3 {
+  margin: 0 0 0 10px;
+}

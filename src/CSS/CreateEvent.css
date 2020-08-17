@@ -1,0 +1,94 @@
+.form-div input {
+  border: 2px solid black;
+  border-radius: 30px;
+  font-size: 20px;
+  height: 35px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.form-div {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 100px auto;
+}
+
+.form-div button {
+  align-self: center;
+  background-color: #333333;
+  border: 2px solid black;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 900;
+  height: 50px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  width: 50%;
+}
+
+.form-div button:hover {
+  background: #333333;
+  color: white;
+}
+
+.time-div {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.make-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.state-and-city {
+  display: flex;
+}
+
+.make-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.make-flex-column:first-child {
+  width: 60%;
+}
+
+.make-flex-column:nth-child(2) {
+  width: 30%;
+}
+
+.make-flex-column select {
+  border: 2px solid black;
+  margin-top: 10px;
+  height: 40px;
+  border-radius: 30px;
+}
+
+.agreement-buttons {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.agreement-buttons a {
+  width: 45%;
+}
+
+.agreement-buttons a button {
+  background-color: #666666;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 900;
+  height: 50px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  width: 100%;
+}

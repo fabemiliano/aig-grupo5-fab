@@ -1,0 +1,32 @@
+a, a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+
+h3 {
+  color: #FFCD00;
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+h4 {
+  padding-top: 10px;
+  font-weight: 900;
+  font-size: 1.25rem;
+  color: #FFCD00;
+  text-align: center;
+}
+
+select:focus {
+  outline: none;
+}
+
+body {
+  font-family: 'Roboto';
+}
+
+button {
+  font-family: 'Roboto';
+}
+

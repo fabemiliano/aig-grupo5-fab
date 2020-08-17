@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonte/Roboto-LightItalic.ttf);
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.footerTP{
+  height: 70px;
+  margin: 0;
+  position:absolute;
+  bottom:0;
+  width: 100%;
+  background-image: url('../images/tela1R.png');
+  background-size:110% 100%;
+  background-position: bottom;
+  transform: scaleX(-1);
+}
+
+.card-conteiner {
+  margin-top:100px;
+}
+
+.card-register-div input {
+  border: 2px solid black;
+  border-radius: 30px;
+  height: 35px;
+  margin: 5px 0;
+  text-align: center;
+  font-size: 20px;
+}
+
+.card-register-div {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 5px auto;
+}
+
+.card-register-div button {
+  align-self: center;
+  background-color: #333333;
+  border: 2px solid black;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 900;
+  height: 50px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  width: 50%;
+}
+
+.card-register-div button:hover {
+  background: #333333;
+  color: white;
+}
+
+.card-conteiner {
+  margin-top:100px;
+}
+
+.card-make-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-make-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-register-due-div {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  margin: 5px auto;
+}
+
+.card-register-due-div input {
+  border: 2px solid black;
+  border-radius: 30px;
+  height: 35px;
+  margin: 5px 0;
+  text-align: center;
+  font-size: 20px;
+}
+
+.card-register-cvv-div {
+  display: flex;
+  flex-direction: column;
+  width: 24%;
+  margin: 5px auto;
+}
+
+.card-register-cvv-div input {
+  border: 2px solid black;
+  border-radius: 30px;
+  height: 35px;
+  margin: 5px 0;
+  text-align: center;
+  font-size: 20px;
+}

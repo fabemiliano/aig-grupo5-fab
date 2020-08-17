@@ -1,0 +1,122 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonte/Roboto-LightItalic.ttf);
+}
+
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.footerSP {
+  height: 60px;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-image: url('../images/tela2R.png');
+  background-size: 110% 100%;
+  background-position: bottom;
+}
+
+.adress-conteiner {
+  margin-top:100px;
+}
+
+.adress-register-div input {
+  border: 2px solid black;
+  border-radius: 30px;
+  height: 35px;
+  margin: 5px 0;
+  text-align: center;
+  font-size: 20px;
+}
+
+.adress-register-div {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 5px auto;
+}
+
+.adress-register-div button {
+  align-self: center;
+  background-color: #333333;
+  border: 2px solid black;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 900;
+  height: 50px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  width: 50%;
+}
+
+.adress-register-div button:hover {
+  background: #333333;
+  color: white;
+}
+
+.adress-conteiner {
+  margin-top:100px;
+}
+
+.adress-make-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.adress-make-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.adress-register-ddd-div {
+  display: flex;
+  flex-direction: column;
+  width: 19%;
+  margin: 5px auto;
+}
+
+.adress-register-ddd-div input {
+  border: 2px solid black;
+  border-radius: 30px;
+  height: 35px;
+  margin: 5px 0;
+  text-align: center;
+  font-size: 20px;
+}
+
+.adress-register-city-div {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  margin: 5px auto;
+}
+
+.adress-register-city-div input {
+  border: 2px solid black;
+  border-radius: 30px;
+  height: 35px;
+  margin: 5px 0;
+  text-align: center;
+  font-size: 20px;
+}
+
+.adress-register-state-div {
+  display: flex;
+  flex-direction: column;
+  width: 24%;
+  margin: 5px auto;
+}
+
+.adress-register-state-div select {
+  border: 2px solid black;
+  margin-top: 5px;
+  height: 40px;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 20px;
+}
