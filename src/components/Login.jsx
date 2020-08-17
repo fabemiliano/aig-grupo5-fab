@@ -67,7 +67,7 @@ function Login(props) {
   const renderButtonInput = (data, email, password) => (
     <div className="conteinerButton">
       <button
-        style={{ marginBottom: '30px' }}
+        style={{ marginBottom: '10px' }}
         className="ButtonInput"
         type="button"
         onClick={() => clickToEnter(data, email, password, history)}
@@ -81,7 +81,7 @@ function Login(props) {
     <div>
       <div className="products-page-nav" />
       <div className="conteinerLogin">
-        <img src={logo} width="100px" style={{ marginBottom: '30px' }} alt="" />
+        <img src={logo} width="100px" style={{ marginBottom: '10px' }} alt="" />
         {renderEmailInput(email, setEmail)}
         {renderPasswordInput(password, setPassword)}
         {renderButtonInput(data, email, password, history)}
