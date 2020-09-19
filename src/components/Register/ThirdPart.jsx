@@ -77,12 +77,12 @@ const renderCVVInput = (CVV, setCVV) => (
   </div>
 );
 
-const isDisabled = (cardName, cardNumber, dueDate, CVV) => {
-  if (cardName && cardNumber.length === 16 && dueDate && (CVV.length === 3 || CVV.length === 4)) {
-    return false;
-  }
-  return true;
-}
+// const isDisabled = (cardName, cardNumber, dueDate, CVV) => {
+//   if (cardName && cardNumber.length === 16 && dueDate && (CVV.length === 3 || CVV.length === 4)) {
+//     return false;
+//   }
+//   return true;
+// }
 
 const renderFinishButtonInput = (
   cardName, cardNumber, dueDate, CVV, saveCard, history, temporaryData,
@@ -94,7 +94,7 @@ const renderFinishButtonInput = (
       onClick={() => clickToRegister(
         cardName, cardNumber, dueDate, CVV, saveCard, history, temporaryData,
       )}
-      disabled={isDisabled(cardName, cardNumber, dueDate, CVV)}
+      // disabled={isDisabled(cardName, cardNumber, dueDate, CVV)}
     >
       Próximo
     </button>

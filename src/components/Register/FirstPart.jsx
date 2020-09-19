@@ -132,21 +132,21 @@ const clickToRegister = (
   history.push("/RegisterAdress");
 }
 
-const isDisabled = (
-  email, password, check, name, CPF, birthDay, code, phone,
-) => {
-  const emailTest = /^(([^<>()[\].,;:\s@"]+(\.[^<>()[\].,;:\s@"]+)*)|(".+"))@(([^<>()[\].,;:\s@"]+\.)+[^<>()[\].,;:\s@"]{2,})$/i;
-  const allDataOnLS=  JSON.parse(localStorage.getItem('usersData') || '[]');
-  const test = allDataOnLS.some((e) => e.email === email)
-  if (test) alert('Email já cadastrado')
-  if (
-    password === check && password !== '' && password.length > 7 && email.match(emailTest)
-    && !test && CPF.length === 11 && code.length === 2 && phone.length === 9
-  ) {
-    return false;
-  }
-  return true;
-};
+// const isDisabled = (
+//   email, password, check, name, CPF, birthDay, code, phone,
+// ) => {
+//   const emailTest = /^(([^<>()[\].,;:\s@"]+(\.[^<>()[\].,;:\s@"]+)*)|(".+"))@(([^<>()[\].,;:\s@"]+\.)+[^<>()[\].,;:\s@"]{2,})$/i;
+//   const allDataOnLS=  JSON.parse(localStorage.getItem('usersData') || '[]');
+//   const test = allDataOnLS.some((e) => e.email === email)
+//   if (test) alert('Email já cadastrado')
+//   if (
+//     password === check && password !== '' && password.length > 7 && email.match(emailTest)
+//     && !test && CPF.length === 11 && code.length === 2 && phone.length === 9
+//   ) {
+//     return false;
+//   }
+//   return true;
+// };
 
 const renderNextButtonInput = (
   email, password, check, name, CPF, birthDay, code, phone, saveUserPessoalInfo, history,
@@ -160,9 +160,10 @@ const renderNextButtonInput = (
             email, password, name, CPF, birthDay,
             code, phone, saveUserPessoalInfo, history,
           )}
-          disabled={isDisabled(
-            email, password, check, name, CPF, birthDay, code, phone,
-          )}>
+          // disabled={isDisabled(
+          //   email, password, check, name, CPF, birthDay, code, phone,
+          // )}
+          >
           Próximo
         </button>
     </div>

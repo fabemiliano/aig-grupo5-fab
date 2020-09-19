@@ -140,16 +140,16 @@ const renderStateInput = (stateLetters, setStateLetters) => (
   </div>
 );
 
-const isDisabled = (CEP, street, adressNumber, city, stateLetters) => {
-  // if (s
-  // ) {
-  //   alert('Verifique o CPF, DDD, Telefone e CEP')
-  // }
-  if (CEP.length === 8 && street && adressNumber && city && stateLetters) {
-    return false;
-  }
-  return true;
-}
+// const isDisabled = (CEP, street, adressNumber, city, stateLetters) => {
+//   // if (s
+//   // ) {
+//   //   alert('Verifique o CPF, DDD, Telefone e CEP')
+//   // }
+//   if (CEP.length === 8 && street && adressNumber && city && stateLetters) {
+//     return false;
+//   }
+//   return true;
+// }
 
 const renderNextButtonInput = (
   CEP, street, adressNumber, complement, city,
@@ -163,9 +163,9 @@ const renderNextButtonInput = (
           CEP, street, adressNumber, complement, city,
           stateLetters, saveUserAdress, history,
         )}
-        disabled={isDisabled(
-          CEP, street, adressNumber, city, stateLetters,
-        )}
+        // disabled={isDisabled(
+        //   CEP, street, adressNumber, city, stateLetters,
+        // )}
       >
         Próximo
     </button>
